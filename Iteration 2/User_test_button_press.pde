@@ -1,10 +1,10 @@
+//Import relevant libraries
 import processing.serial.*;
 import controlP5.*;
-
 import cc.arduino.*;
 
+//Create Arduino and ControlP5 objects
 Arduino arduino;
-
 ControlP5 cp5;
 
 int buttonData;
