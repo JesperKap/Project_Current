@@ -1,29 +1,34 @@
+//Include relevant libraries
 #include <Wire.h>
 #include <TimeLib.h>
 #include <DS1307RTC.h>
 
+//Names of months
 const char *monthName[12] = {
   "Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 };
 
+//Create tm object
 tmElements_t tm;
 
 void setup() {
+  
+  //Initialize booleans
   bool parse=false;
   bool config=false;
 
-  // get the date and time the compiler was run
+  //Get the date and time and send it to RTC
   if (getDate(__DATE__) && getTime(__TIME__)) {
     parse = true;
-    // and configure the RTC with this info
     if (RTC.write(tm)) {
       config = true;
     }
   }
 
+  //Communicate which date and time was set or error message
   Serial.begin(9600);
-  while (!Serial) ; // wait for Arduino Serial Monitor
+  while (!Serial) ; 
   delay(200);
   if (parse && config) {
     Serial.print("DS1307 configured Time=");
@@ -45,6 +50,7 @@ void setup() {
 void loop() {
 }
 
+//Get current time
 bool getTime(const char *str)
 {
   int Hour, Min, Sec;
@@ -56,6 +62,7 @@ bool getTime(const char *str)
   return true;
 }
 
+//Get current date
 bool getDate(const char *str)
 {
   char Month[12];
