@@ -6,4 +6,10 @@ Iteration 1
   
     This file can be run as a standalone program in the Processing IDE. It features interactive explorations of visualizations that respond to a change in acceleration.     With the cursor, you can choose to accelerate (towards plus sign), decelerate (towards minus sign) or stay at a constant speed (middle of the screen).
     
- 
+Iteration 2
+  - 'Delayed animations'
+  - 'Realtime_animations'
+  - 'RTC_set_time.ino'
+  - 'User_test_button_press.pde'
+  
+    This program can be run in the Processing IDE. It provides a graphical interface to an Arduino microcontroller with a button. The interface shows when the button is being pressed and 
