@@ -5,7 +5,9 @@ Iteration 1
   - 'Metaphorical_representations.pde'
   
     This file can be run as a standalone program in the Processing IDE. It features interactive explorations of visualizations that respond to a change in acceleration. With the cursor, you can choose to accelerate (towards plus sign), decelerate (towards minus sign) or stay at a constant speed (middle of the screen).
-    
+
+![Frame_3-01](https://user-images.githubusercontent.com/65406246/233704657-68bc4d16-a5c6-4967-afa7-f5145c2581b5.jpg)
+
 Iteration 2
   - 'Delayed animations'
 
