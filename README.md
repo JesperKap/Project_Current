@@ -7,6 +7,7 @@ Iteration 1
     This file can be run as a standalone program in the Processing IDE. It features interactive explorations of visualizations that respond to a change in acceleration. With the cursor, you can choose to accelerate (towards plus sign), decelerate (towards minus sign) or stay at a constant speed (middle of the screen).
 
 ![Frame_3-01](https://user-images.githubusercontent.com/65406246/233704657-68bc4d16-a5c6-4967-afa7-f5145c2581b5.jpg)
+Exploration of visualizations
 
 Iteration 2
   - 'Delayed animations'
@@ -72,3 +73,14 @@ Iteration 2
   - 'User_test_button_press.pde'
   
     This program can be run in the Processing IDE. It provides a graphical interface to an Arduino microcontroller with a button. The interface shows when the button is being pressed and provides the possibility to store the timestamps of the button presses to a '.csv' file. During my Final Bachelor Project, this was used to measure the response time of participants to different visualizations. 
+    
+![WhatsApp Image 2023-04-21 at 20 07 03](https://user-images.githubusercontent.com/65406246/233705586-451b1e1f-5837-40e6-8996-77d0e7d0028b.jpg)
+Button press device
+
+![WhatsApp Image 2023-04-21 at 20 07 38](https://user-images.githubusercontent.com/65406246/233705688-10f50b05-527b-4e77-9cf1-c221145b217f.jpg)
+The prototype attached on a vehicle
+
+![WhatsApp Image 2023-04-21 at 20 10 55](https://user-images.githubusercontent.com/65406246/233706068-d667d2a0-49a9-4552-b602-15fc8ff55769.jpg)
+The prototype activated at night
+
+
